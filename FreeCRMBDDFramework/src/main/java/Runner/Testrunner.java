@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "C:\\Users\\Suresh\\git\\Bdd\\FreeCRMBDDFramework\\src\\main\\java\\Features\\contacts.feature", //the path of the feature files
+		features = "C:\\Users\\Suresh\\git\\Bdd\\FreeCRMBDDFramework\\src\\main\\java\\Features\\deals.feature", //the path of the feature files
 		glue={"stepDefinitions"}, //the path of the stepDefinitions files
 format  = {"pretty","html:test-outout","junit: junit_XML/Cucumber.xml" } // to genrate differnt types of report
 		,monochrome = true // Display console output in readable formate

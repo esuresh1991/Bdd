@@ -71,7 +71,7 @@ public class LoginStepDefinition {
 	 }
 
 	 @Then("^user enters contact details \"([^\"]*)\" and \"([^\"]*)\" and \"([^\"]*)\"$")
-	 public void user_enters_contact_details_and_and(String FN, String LN, String Postion) {
+	 public void user_enters_contact_details(String FN, String LN, String Postion) {
 	     // Write code here that turns the phrase above into concrete actions
 	  
 		 driver.findElement(By.xpath("//input[@name='first_name']")).sendKeys(FN);
