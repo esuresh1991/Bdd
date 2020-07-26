@@ -12,6 +12,10 @@ formatter.feature({
     }
   ]
 });
+formatter.before({
+  "duration": 359100,
+  "status": "passed"
+});
 formatter.scenario({
   "line": 5,
   "name": "Login with correct username and correct password",
@@ -39,7 +43,15 @@ formatter.match({
   "location": "TaggingStepDefinition.this_is_a_valid_login_test()"
 });
 formatter.result({
-  "duration": 451566900,
+  "duration": 274683500,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 763900,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 500600,
   "status": "passed"
 });
 formatter.scenario({
@@ -65,7 +77,15 @@ formatter.match({
   "location": "TaggingStepDefinition.this_is_a_invalid_login_test()"
 });
 formatter.result({
-  "duration": 231500,
+  "duration": 54600,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 5715700,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 523800,
   "status": "passed"
 });
 formatter.scenario({
@@ -95,7 +115,15 @@ formatter.match({
   "location": "TaggingStepDefinition.this_is_a_deal_test_case()"
 });
 formatter.result({
-  "duration": 110300,
+  "duration": 44400,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 905200,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 301900,
   "status": "passed"
 });
 formatter.scenario({
@@ -121,7 +149,15 @@ formatter.match({
   "location": "TaggingStepDefinition.this_is_a_tasks_test_case()"
 });
 formatter.result({
-  "duration": 72599,
+  "duration": 50500,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 4780100,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 239800,
   "status": "passed"
 });
 formatter.scenario({
@@ -151,7 +187,15 @@ formatter.match({
   "location": "TaggingStepDefinition.clicking_on_left_panel_links()"
 });
 formatter.result({
-  "duration": 112300,
+  "duration": 47700,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 426900,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 646000,
   "status": "passed"
 });
 formatter.scenario({
@@ -181,7 +225,15 @@ formatter.match({
   "location": "TaggingStepDefinition.this_is_a_search_case_test()"
 });
 formatter.result({
-  "duration": 83500,
+  "duration": 52100,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 567700,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 487200,
   "status": "passed"
 });
 formatter.scenario({
@@ -211,7 +263,15 @@ formatter.match({
   "location": "TaggingStepDefinition.this_is_a_search_task_test()"
 });
 formatter.result({
-  "duration": 90600,
+  "duration": 139700,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 2561200,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 1745400,
   "status": "passed"
 });
 formatter.scenario({
@@ -241,7 +301,15 @@ formatter.match({
   "location": "TaggingStepDefinition.this_is_a_search_call_test()"
 });
 formatter.result({
-  "duration": 164899,
+  "duration": 61300,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 425500,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 544300,
   "status": "passed"
 });
 formatter.scenario({
@@ -271,7 +339,15 @@ formatter.match({
   "location": "TaggingStepDefinition.this_is_a_search_email_test()"
 });
 formatter.result({
-  "duration": 129501,
+  "duration": 62700,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 523600,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 2658600,
   "status": "passed"
 });
 formatter.scenario({
@@ -301,7 +377,15 @@ formatter.match({
   "location": "TaggingStepDefinition.this_is_a_search_docs_test()"
 });
 formatter.result({
-  "duration": 82999,
+  "duration": 64900,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 386300,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 1850200,
   "status": "passed"
 });
 formatter.scenario({
@@ -331,7 +415,15 @@ formatter.match({
   "location": "TaggingStepDefinition.this_is_a_search_forms_test()"
 });
 formatter.result({
-  "duration": 85901,
+  "duration": 48800,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 408400,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 1385700,
   "status": "passed"
 });
 formatter.scenario({
@@ -357,7 +449,15 @@ formatter.match({
   "location": "TaggingStepDefinition.this_is_a_report_test()"
 });
 formatter.result({
-  "duration": 146799,
+  "duration": 710600,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 578700,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 692100,
   "status": "passed"
 });
 formatter.scenario({
@@ -383,7 +483,11 @@ formatter.match({
   "location": "TaggingStepDefinition.this_is_a_logout_test()"
 });
 formatter.result({
-  "duration": 95401,
+  "duration": 46000,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 6356600,
   "status": "passed"
 });
 });
